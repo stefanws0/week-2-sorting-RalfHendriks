@@ -157,5 +157,10 @@ namespace ALGA
             }
             return true;
         }
+
+        public override string ToString()
+        {
+            return "[" + string.Join(", ", list) + "]";
+        }
     }
 }
