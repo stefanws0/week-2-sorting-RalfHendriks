@@ -85,7 +85,9 @@ namespace ALGA
             }
         }
 
-
+        /**
+         * Swap the values at index i1 and i2 around
+         */
         public void swap(int i1, int i2)
         {
             if(i1 < 0 || i1 >= Count)

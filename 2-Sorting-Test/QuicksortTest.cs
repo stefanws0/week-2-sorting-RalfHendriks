@@ -120,8 +120,6 @@ namespace ALGA_test
             SortList list = new SortList(100, true, true);
             Quicksort.quicksort(list);
             Assert.IsTrue(list.isSorted());
-            int k = list.Comparisons;
-            k = list.Swaps;
         }
 
         [Test]
