@@ -19,35 +19,35 @@
   </tr>
   <tr>
     <th>Aantal vergelijkingen</th>
-    <td><!-- Vergelijkingen Quicksort gesorteerd --></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>  <!-- Vergelijkingen Quicksort gesorteerd --></td>
+    <td>  <!-- Vergelijkingen Quicksort geshuffled --></td>
+    <td>  <!-- Vergelijkingen Quicksort3 gesorteerd --></td>
+    <td>  <!-- Vergelijkingen Quicksort3 geshuffled --></td>
+    <td>  <!-- Vergelijkingen Mergesort gesorteerd --></td>
+    <td>  <!-- Vergelijkingen Mergesort geshuffled --></td>
+    <td>  <!-- Vergelijkingen Bubblesort gesorteerd --></td>
+    <td>  <!-- Vergelijkingen Bubblesort geshuffled --></td>
   </tr>
   <tr>
     <th>Aantal swaps</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>  <!-- Swaps Quicksort gesorteerd --></td>
+    <td>  <!-- Swaps Quicksort geshuffled --></td>
+    <td>  <!-- Swaps Quicksort3 gesorteerd --></td>
+    <td>  <!-- Swaps Quicksort3 geshuffled --></td>
+    <td>  <!-- Swaps Mergesort gesorteerd --></td>
+    <td>  <!-- Swaps Mergesort geshuffled --></td>
+    <td>  <!-- Swaps Bubblesort gesorteerd --></td>
+    <td>  <!-- Swaps Bubblesort geshuffled --></td>
   </tr>
   <tr>
     <th>Uitvoertijd</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>  <!-- Uitvoertijd Quicksort gesorteerd --></td>
+    <td>  <!-- Uitvoertijd Quicksort geshuffled --></td>
+    <td>  <!-- Uitvoertijd Quicksort3 gesorteerd --></td>
+    <td>  <!-- Uitvoertijd Quicksort3 geshuffled --></td>
+    <td>  <!-- Uitvoertijd Mergesort gesorteerd --></td>
+    <td>  <!-- Uitvoertijd Mergesort geshuffled --></td>
+    <td>  <!-- Uitvoertijd Bubblesort gesorteerd --></td>
+    <td>  <!-- Uitvoertijd Bubblesort geshuffled --></td>
   </tr>
 </table>
