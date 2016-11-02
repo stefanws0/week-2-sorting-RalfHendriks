@@ -19,35 +19,41 @@
   </tr>
   <tr>
     <th>Aantal vergelijkingen</th>
-    <td>  <!-- Vergelijkingen Quicksort gesorteerd --></td>
-    <td>  <!-- Vergelijkingen Quicksort geshuffled --></td>
-    <td>  <!-- Vergelijkingen Quicksort3 gesorteerd --></td>
-    <td>  <!-- Vergelijkingen Quicksort3 geshuffled --></td>
-    <td>  <!-- Vergelijkingen Mergesort gesorteerd --></td>
-    <td>  <!-- Vergelijkingen Mergesort geshuffled --></td>
-    <td>  <!-- Vergelijkingen Bubblesort gesorteerd --></td>
-    <td>  <!-- Vergelijkingen Bubblesort geshuffled --></td>
+    <td>50143723</td>
+    <td>148723</td>
+    <td>16832111</td>
+    <td>147868</td>
+    <td>133616</td>
+    <td>65348</td>
+    <td>99990000</td>
+    <td>99990000</td>
   </tr>
   <tr>
     <th>Aantal swaps</th>
-    <td>  <!-- Swaps Quicksort gesorteerd --></td>
-    <td>  <!-- Swaps Quicksort geshuffled --></td>
-    <td>  <!-- Swaps Quicksort3 gesorteerd --></td>
-    <td>  <!-- Swaps Quicksort3 geshuffled --></td>
-    <td>  <!-- Swaps Mergesort gesorteerd --></td>
-    <td>  <!-- Swaps Mergesort geshuffled --></td>
-    <td>  <!-- Swaps Bubblesort gesorteerd --></td>
-    <td>  <!-- Swaps Bubblesort geshuffled --></td>
+    <td>101195</td>
+    <td>81197</td>
+    <td>101195</td>
+    <td>101195</td>
+    <td>133616</td>
+    <td>133616</td>
+    <td>0</td>
+    <td>25094131</td>
   </tr>
   <tr>
     <th>Uitvoertijd</th>
-    <td>  <!-- Uitvoertijd Quicksort gesorteerd --></td>
-    <td>  <!-- Uitvoertijd Quicksort geshuffled --></td>
-    <td>  <!-- Uitvoertijd Quicksort3 gesorteerd --></td>
-    <td>  <!-- Uitvoertijd Quicksort3 geshuffled --></td>
-    <td>  <!-- Uitvoertijd Mergesort gesorteerd --></td>
-    <td>  <!-- Uitvoertijd Mergesort geshuffled --></td>
-    <td>  <!-- Uitvoertijd Bubblesort gesorteerd --></td>
-    <td>  <!-- Uitvoertijd Bubblesort geshuffled --></td>
+    <td>0.3356</td>
+    <td>0.0018</td>
+    <td>0.1122</td>
+    <td>0.0015</td>
+    <td>0.0011</td>
+    <td>0.002</td>
+    <td>0.6622</td>
+    <td>0.9701</td>
   </tr>
 </table>
+
+Quicksort unsorted duurd ongeveer even lang als Quicksort3 unsorted. Eventuele verschillen zijn slechts te wijten aan "geluk" (de quicksort 3 median kan beter uitkomen, maar ook slechter).
+
+Bij Quicksort3 zie je wel dat de sorted meer dan 3x zo snel wordt uitgevoerd als de normale quicksort.
+
+Dat komt natuurlijk omdat de median bij quicksort3 beter is bepaald, wat bij het sorten van een sorted list beter is. Wanneer bij quicksort bij een sorted lijst telkens de linker index na de vorige pivotposition als index word gebruikt, wordt de array vak voor vak opgeschroven, wat erg langzaam is.
